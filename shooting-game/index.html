@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shooting Game</title>
+    <meta name="author" content="Suhail Saifi">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="keywords" content="HTML, CSS and JavaScript">
+	  <meta name="discription" content="A two player shooting game.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="gameTitle">Shooting Zone</div>
+    <div class="arena">
+        <div>
+          <p class="shooting-board-title">Shooting Ring</p>
+          <div class="player-names">
+            <p>Player 1</p>
+            <p>Player 2</p>
+          </div>
+          <div class="shooting-board">
+            <span id="p1FireScore"></span>
+            <span id="p2FireScore"></span>
+          </div>
+        </div>
+    </div>
+    </div>
+      <div class="btns">
+        <Button id="shootBtn" onclick="shootBtn()">Shoot</Button>
+        <button id="resetBtn" onclick="resetBtn()">Game Again</button>
+      </div>
+      <div class="score-board">
+        <div class="players">
+          <div class="grid-item" id="grid-item-1">Player 1 Score</div>
+          <div class="grid-item" id="grid-item-5">Player 2 Score</div>
+        </div>
+        <div class="won">
+          <div class="grid-item" id="grid-item-3">Win</div>
+          <div class="grid-item" id="grid-item-4">0</div>
+          <div class="grid-item" id="grid-item-7">Win</div>
+          <div class="grid-item" id="grid-item-8">0</div>
+        </div>      
+      </div>
+      <div class="result">
+        <div class="result-item" id="grid-item-9">Result</div>
+      </div>
+<script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding-inline: 100px;
+}
+
+.arena{
+    border: 1px solid gray;
+    height: 160px;
+    width: auto;
+    overflow: hidden;
+    align-content: center;
+    
+}
+
+#gameTitle{
+    font-size: 3rem;
+    text-align: center;
+    padding-block: 1rem;
+}
+
+.player-names {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2rem;
+    padding-block: .5rem;
+}
+
+.shooting-board-title {
+    display: block;
+    text-align: center;
+    padding-block: .5rem;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.shooting-board {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2rem;
+}
+
+#p1FireScore{
+    font-size: 5rem;
+    font-weight: normal;
+}
+#p2FireScore{
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-block: 2rem;
+}
+
+button {
+    width: 12rem;
+    height: 3rem;
+    font-size: 1rem;
+    border: 1px solid gray;
+    border-radius: .5rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#shootBtn:hover {
+    color: #FFFFFF;
+    background-color: #FF0000;
+}
+#resetBtn:hover {
+    color: #FFFFFF;
+    background-color: #008000;
+}
+
+.score-board {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+
+.players {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2rem;
+    padding-block: .5rem;
+    border-bottom: 1px solid gray;
+}
+
+.won {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2rem;
+    padding-block: .5rem;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.result-item{
+    width: 20rem;
+    height: 2.5rem;
+    padding: 5px;
+    font-size: 2rem;
+    text-align: center;
+    position:relative;
+    border: 1px solid gray;
+    background-color: #000000;
+    color: #ffffff
+}
